@@ -15,5 +15,6 @@
 
 ssize_t _prompt(char **argv, int *flag, char **env);
 int _exitt(char *av, int num);
+int _print_env(char *av, char **env);
 
 #endif
