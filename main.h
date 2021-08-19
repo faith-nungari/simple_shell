@@ -14,3 +14,6 @@
 #include <dirent.h>
 
 ssize_t _prompt(char **argv, int *flag, char **env);
+int _exitt(char *av, int num);
+
+#endif
