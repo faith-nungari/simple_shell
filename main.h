@@ -19,4 +19,7 @@ int _print_env(char *av, char **env);
 void _path(char **av, char *env, char *av_0, int av_l, int *p_find);
 void fill(char *str, char *p);
 char **_strtok(char *str);
+void __cd_error(info_t *info, char *dir);
+void __cd_success(info_t *info);
+int __cd(info_t *info);
 #endif
